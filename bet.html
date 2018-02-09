@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Coin Flip Game</title>
+</head>
+<body>
+<label>JS Coin Flip Game </label>
+	<script>
+	alert("Created by Justin Hantapong");
+	alert("Welcome to Coin Flip Game");
+	let personbet = prompt("heads or tails")
+	var gen = (Math.floor(Math.random() * 2) == 0) ? 'heads' : 'tails';
+	if (personbet === gen){
+		alert("You won");
+    location.href ="https://media.giphy.com/media/3o6ZtcXT4BYEBVNYnm/giphy.gif";
+	}else{
+		alert("You lost");
+	}
+	</script>
+</html>
